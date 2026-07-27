@@ -1,0 +1,12 @@
+[package]
+name = "vorp-git/videprimitives"
+version = "0.1.0"
+description = "Primitives for Vide"
+license = "MIT"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+exclude = ["**"]
+include = ["src", "src/*", "default.project.json", "wally.lock", "wally.toml", "LICENSE"]
+
+[dependencies]
+Vide = "centau/vide@0.4.1"
